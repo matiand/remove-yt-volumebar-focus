@@ -5,6 +5,7 @@
 // @version  1
 // @grant    none
 // @match    https://www.youtube.com/*
+// @namespace https://greasyfork.org/users/847699
 // ==/UserScript==
 
 const volumeArea = document.querySelector(".ytp-volume-area");
