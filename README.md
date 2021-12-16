@@ -1,6 +1,9 @@
 # About
 
-This userscript restores focus to video element after using volume bar, so that left/right arrows can be used for video seeking instead of volume change.
+This userscript restores focus to video element after using volume or progress
+bar, so that shortcuts for video seeking and volume control are consistent
+regardless of last action. Left/right arrows always seek video backward/forward and
+up/down arrows always change volume.
 Requires userscript manager like Greasemonkey/Tampermonkey.
 
 ## Before

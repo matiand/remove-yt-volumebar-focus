@@ -9,9 +9,16 @@
 // ==/UserScript==
 
 const volumeArea = document.querySelector(".ytp-volume-area");
+const videoProgressBar = document.querySelector(".ytp-progress-bar-container");
 const videoElem = document.querySelector("video.html5-main-video");
 
 volumeArea.addEventListener("click", (_) => {
+    setTimeout(() => {
+        videoElem.focus();
+    }, 50);
+});
+
+videoProgressBar.addEventListener("click", (_) => {
     setTimeout(() => {
         videoElem.focus();
     }, 50);
